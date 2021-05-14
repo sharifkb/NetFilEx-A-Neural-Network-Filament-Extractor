@@ -3,7 +3,7 @@
 We present a neural network-based object extraction algorithm. NetFilEx breaks down FITS files into (128×128)pix sized tiles and searches each one for Non-Thermal Filaments. The algorithm outputs mosaics of the located NTFs, stored in an HDUList. The Convolutional Neural Network has been trained on the MeerKAT survey of the Galactic Centre and has achieved a validation accuracy of 99.61%. These mosaics can be used for subsequent analysis by packages such as FilFinder, as demonstrated in this paper. Extraction algorithms like these will become increasingly necessary with the next generation of radio telescopes. Tradition object classification methods require a significant degree of human interaction, which will not be feasible as the amount of data from radio surveys grow. The automation facilitated by Convolutional Neural Networks will shorten the pipeline between telescopes and researchers.
 
 
-0. Creating cuts:
+0 Creating cuts:
 
 This script cuts the original science frame into 128 by 128 cuts to use in subsequent training. Before the image is cut, an upper and lower border is remocer to reduce the number or repetative data samples.
 

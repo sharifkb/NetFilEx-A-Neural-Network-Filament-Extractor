@@ -31,3 +31,5 @@ Performs FilFinder Analysis
 Netfilex
 The final algorithm which condenses "0. Creating cuts", the preparation portion of "3 CNN", "4 Classification" and "5 Stitching Fits Together" into a seried of functions.
 To run the Netfilex algorithm locally the "modelBlueBEAR_0.9961212277412415_41_2_20" also needs to be downloaded.
+
+The "Write up" folder contains reading notes, a litereature review and other doccuments used in writing up the final report.
